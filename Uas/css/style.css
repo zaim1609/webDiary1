@@ -1,0 +1,524 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial;
+}
+.po{
+    background-image: url(image/baground1.png);
+    width: 100%;
+    height: 656px;
+}
+nav{
+    
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: rgb(13, 13, 14);
+    font-size:35px ;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    padding: 7px 13px;
+    border-radius: 3px;
+    color: rgb(252, 252, 253);
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover{
+    background:#66afe7;
+    transition: .5s;
+}
+.oi{
+    width: 700px;
+    float: right;
+    position: relative;
+    right: 100px;
+    top: 40px;
+}
+.vi{
+    width: 500px;
+    height: 100px;
+    font-size: 30px;
+    position: relative;
+    top: 90px;
+    left: 50px;
+}
+.tombol1{
+    position: relative;
+    top: 250px;
+    left: 170px;
+    background: #66afe7;
+    width: 110px;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    
+}
+.tombol1:hover{
+    background-color: rgb(41, 87, 114);
+}
+.po2{
+    width: 100%;
+    height: 450px;
+    
+}
+.buat-tengah{
+    position: relative;
+    
+    width: 100%;
+    height: 100px;
+    
+    top: 110px;
+}
+
+
+
+.lo{
+    
+    position: relative;
+    z-index: 2;
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    left: 170px; 
+    text-align: center;
+}
+.lo.b{
+    left: 350px;
+}
+.lo.c{
+    left: 550px;
+}
+.nulis{
+    width: 200px;
+    height: 100px;
+    
+    position: relative;
+    
+}
+.tulisan{
+    position: absolute;
+    text-align: center;
+    
+}
+.po3{
+    width: 100%;
+    height: 600px;
+    
+    
+}
+.uu{
+    position: absolute;
+}
+.uu.a{
+    left: 110px;
+}
+.uu.b{
+    top: 50px;
+    font-size: 50px;
+}
+.uu.c{
+    top:130px;
+    font-size: 25px;
+}
+.uu.d{
+    top:180px;
+    font-size: 25px;
+    left: 90px;
+}
+.uu.e{
+    left: 90px;
+    top: 50px;
+    font-size: 50px;
+}
+.tombol.b{
+    
+    width: 110px;
+    height: 50px;
+    border-radius: 25px;
+    top: 300px;
+    left: 90px;
+}
+.large{
+    width: 600px;
+    height: 600px;
+    position: relative;
+    /* background-color: aqua; */
+    display: inline-block;
+  
+}
+/* .large.b{
+    background-color: #66afe7;
+} */
+.tombol{
+    position: absolute;
+    background-color: #66afe7;
+    color: white;
+}
+.tombol.a{
+   
+    width: 110px;
+    height: 50px;
+    border-radius: 25px;
+    top: 300px;
+}
+.tombol.c{
+    width: 110px;
+    height: 50px;
+    border-radius: 25px;
+    top: 350px;
+    left: 260px;
+
+}
+.po4{
+    width: 100%;
+    height: 600px;
+    background-image: url(image/awa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.uu.f{
+    left: 40px;
+}
+.uu.g{
+    top: 190px;
+    font-size: 60px;
+    text-align: center;
+    left: 90px;
+}
+.uu.h{
+    left: 110px;
+    top: 200px;
+}
+.po5{
+    width: 100%;
+    height: 600px;
+    background-image: url(image/akhir.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-image: url(image/foot.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.isi{
+    width: 1130px;
+   
+    height: 100%;
+    position: relative;
+    left: 110px;
+    
+}
+.uu.i{
+    width: 200px;
+    left: 470px;
+    top: 20px;
+    
+}
+.all{
+    width: 100%;
+    height: 60%;
+    
+    top: 70px;
+    position: relative;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    left: 150px;
+    top: 10px;
+}
+.icon.a{
+    margin-left: 130px;
+}
+
+/* halaman login */
+
+.login{
+    background-image: url(image/login.png);
+    height: 656px;
+    width: 100%;
+}
+.large.o{
+    left: 60px;
+    height: 550px;
+}
+.uu.j{
+    top: 100px;
+}
+.form{
+    position: absolute;
+    /* background-color: blue; */
+    text-align: center;
+    top: 100px;
+    left: 50px;
+    width: 500px;
+    height: 400px;
+}
+.head{
+    font-size: 50px;
+    text-align: center;
+}
+.kp{
+    position: relative;
+    height: 40px;
+    width: 300px;
+    border-radius: 25px;
+    top: 30px;
+    text-align: center;
+    font-size: 20px;
+    
+
+}
+.kp.password{
+    top: 60px;
+}
+.checkbox.p{
+    position: relative;
+    top: 70px;
+    right: 70px;
+
+}
+.submit{
+    position: relative;
+    top: 85px;
+    background: #66afe7;
+    width: 110px;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+
+}
+
+
+.navlogin{
+    
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: rgb(13, 13, 14);
+    font-size:35px ;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+.navlogin ul{
+    float: right;
+    margin-right: 20px;
+}
+.navlogin ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+.navlogin ul li a{
+    text-shadow: 1px 1px 1px rgb(0, 0, 0,0.6);
+    padding: 7px 13px;
+    border-radius: 3px;
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+/* halaman login end */
+/* halaman sign */
+.sign{
+    background-image: url(image/signup.png);
+    height: 656px;
+    width: 100%;
+}
+.nb{
+    position: relative;
+    height: 40px;
+    width: 300px;
+    border-radius: 25px;
+    top: 30px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.nb.email{
+    top: 50px;
+
+}
+.nb.password{
+    top: 70px;
+}
+.uu.k{
+    top: 200px;
+}
+
+/* halaman sign */
+
+
+
+
+/* halaman admin */
+
+
+.navlogin.a{
+    position: fixed;
+    z-index: 2;
+}
+.admin{
+    background-image: url(image/admin.png);
+    width: 100%;
+    height: 1100px;
+}
+.side{
+    background-color:rgb(226, 226, 226);
+    height: 500px;
+    width: 300px;
+    position: fixed;
+    top: 100px;
+    left: 80px;
+    overflow-y : scroll;
+}
+.kertas{
+    width: 800px;
+    height: 900px;
+    background-color: whitesmoke;
+    position: relative;
+    left: 450px;
+    top: 100px;
+}
+.xa{
+    position: relative;
+    width: 390px;
+    height: 100px; 
+    /* background-color: aqua; */
+     display: inline-block;
+    left: 8px;
+}
+.sapa{
+    width: 300px;
+    height: 49px;
+    position: relative; 
+    /* background-color: blueviolet; */
+    left: 45px;
+    
+}
+.emote{
+    width: 300px;
+    height: 49px;
+    /* background-color: rgb(55, 43, 226); */
+    position: relative;
+    left: 45px;
+
+} 
+.nb.date{
+    position: absolute;
+    left: 50px;
+    text-align: center;
+}
+.rasa{
+    position: absolute;
+}
+.rasa.font{
+    left: 50px;
+    top: 10px;
+}
+.ekspresi{
+    background-color: #66afe7;
+    width: 50px;
+    display: inline-block;
+    height: 50px;
+    position:absolute;
+    border-radius: 35px;
+}
+.ekspresi.d{
+    left: 250px;
+}
+.ekspresi.c{
+    left: 170px;
+}
+.ekspresi.b{
+    left: 90px;
+}
+.emote.o{
+    top:25px;
+}
+.asq{
+    position: relative;
+    width: 800px;
+    height: 400px; */
+    /* background-color: blueviolet; */
+ }
+.textarea{
+    width: 750px;
+    height: 400px;
+    position: relative;
+    left: 25px;
+}
+.gambart{
+    width: 750px;
+    position: relative;
+    left: 25px;
+    background-color: rgb(194, 190, 190);
+    height: 260px;
+    border:black;
+}
+.tombol.d{
+    left: 330px;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+}
+.title{
+    background-color: midnightblue;
+    width: 300px;
+    height: 50px;
+}
+.uu.l{
+    font-size: 30px;
+    top: 7px;
+    left: 30px;
+    color: antiquewhite;
+}
+.uu.m{
+    left: 200px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    top: 5px;
+    font-size: 30px;
+    background-color: #66afe7;
+    color: aliceblue;
+}
+.qq{
+    position: absolute;
+} 
+
+
+
+
+
+
+/* halaman admin akhir */
